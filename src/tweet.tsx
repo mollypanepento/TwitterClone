@@ -27,7 +27,7 @@ function Tweet({id, username, content, likes, timestamp}: Tweets){
 
     return(
         <div className = "tweet">
-            <h4>@{username}</h4>
+            <h3>@{username}</h3>
             <p>{content}</p>
             <p><small>{timestamp} ago</small></p>
             <button onClick = {handleLike}>
